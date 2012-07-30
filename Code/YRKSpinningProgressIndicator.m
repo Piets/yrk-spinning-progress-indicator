@@ -42,7 +42,7 @@
     self = [super initWithFrame:frame];
     if (self) {
         _position = 0;
-        _numFins = 12;
+        _numFins = 8;
         _finColors = calloc(_numFins, sizeof(NSColor*));
         
         _isAnimating = NO;
